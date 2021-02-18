@@ -1,0 +1,14 @@
+.hoverMovie {
+    position: absolute;
+    bottom: -4%;
+    left: 0%;
+    background-image: linear-gradient(180deg, transparent, rgba(37, 37, 37, 0.61), #111);
+    height: 50px;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}

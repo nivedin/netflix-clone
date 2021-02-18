@@ -16,7 +16,7 @@ function Banner() {
             return request;
         }
        
-        fetchData()
+        fetchData() 
     }, [])
 
     //console.log(movie);
@@ -45,6 +45,7 @@ function Banner() {
             </div>
 
             <div className="banner--fadeBottom"/>
+            <div className="banner--fadeLeft"/>
         </header>
     )
 }

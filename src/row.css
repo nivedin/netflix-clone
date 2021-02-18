@@ -10,6 +10,21 @@
     padding: 20px;
 }
 
+.moviePosterContainer {
+    height: 100px;
+    min-width: 200px;
+    position: relative;
+    object-fit: contain;
+    margin-right: 15px;
+}
+
+.moviePosterContainer__large {
+    min-height: 250px;
+    width: 100%;
+    position: relative;
+    margin-right: 15px;
+}
+
 .row__posters::-webkit-scrollbar {
     opacity: 0;
 }
@@ -17,7 +32,6 @@
 .row__poster {
     max-height: 100px;
     object-fit: contain;
-    margin-right: 15px;
     width: 100%;
     transition: transform 0.45s linear;
 }
